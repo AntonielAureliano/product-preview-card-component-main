@@ -11,6 +11,32 @@ font-family: 'Montserrat', sans-serif;*/
   --neutral-white: hsl(0, 0%, 100%);
 }
 
+body,
+h1,
+h2,
+p,
+a {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: var(--primary-cream);
+}
+
+img {
+  display: block;
+  max-width: 18.75rem;
+}
+
+.product {
+  background-color: var(--neutral-white);
+  display: flex;
+  margin: 7.5rem auto;
+  max-width: 37.5rem;
+}
+
+/*-----footer----*/
 .attribution {
   font-size: 11px;
   text-align: center;
