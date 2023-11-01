@@ -22,6 +22,7 @@ a {
 
 body {
   background-color: var(--primary-cream);
+  font-family: "Montserrat", sans-serif;
 }
 
 img {
@@ -31,12 +32,77 @@ img {
 
 .product {
   background-color: var(--neutral-white);
+  border-radius: 0.625rem;
   display: flex;
   margin: 7.5rem auto;
   max-width: 37.5rem;
 }
 
-/*-----footer----*/
+/*image*/
+
+.product-image img {
+  border-radius: 0.625rem 0 0 0.625rem;
+}
+
+/*description*/
+
+.product-description {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin: 2rem;
+}
+
+.product-description span {
+  color: var(--neutral-dark-grayish-blue);
+  font-size: 0.8125rem;
+  letter-spacing: 0.1875rem;
+  text-transform: uppercase;
+}
+
+.product-descripttion-title {
+  font-family: "Fraunces", serif;
+  font-size: 2rem;
+  color: var(--neutral-very-dark-blue);
+  max-width: 10ch;
+  line-height: 1;
+}
+
+.product-description-paragraph {
+  color: var(--neutral-dark-grayish-blue);
+  font-size: 0.875rem;
+  line-height: 1.8;
+}
+
+.product-description-price {
+  display: flex;
+  gap: 1rem;
+}
+.product-description-price p {
+  color: var(--primary-dark-cyan);
+  font-family: "Fraunces", serif;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.product-description-price span {
+  align-self: center;
+  font-size: 0.8125rem;
+  text-decoration: line-through;
+  letter-spacing: 0;
+}
+
+.product-description-button {
+  background-color: var(--primary-dark-cyan);
+  border-radius: 0.625rem;
+  color: var(--neutral-white);
+  font-size: 0.8125rem;
+  padding: 1rem 2rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+/*footer*/
 .attribution {
   font-size: 11px;
   text-align: center;
