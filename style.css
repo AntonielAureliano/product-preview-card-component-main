@@ -26,11 +26,6 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-img {
-  display: block;
-  max-width: 18.75rem;
-}
-
 .product {
   background-color: var(--neutral-white);
   border-radius: 0.625rem;
@@ -41,7 +36,11 @@ img {
 
 /*image*/
 
-.product-image img {
+.product-image {
+  background-image: url("./images/image-product-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1000px;
   border-radius: 0.625rem 0 0 0.625rem;
 }
 
@@ -114,4 +113,12 @@ img {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+/*responsive*/
+
+@media (max-width: 375px) {
+  .product {
+    flex-direction: column;
+  }
 }
