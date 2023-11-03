@@ -23,12 +23,12 @@ Users should be able to:
 
 ### Screenshot
 
-![Final result](05-picture.png)
+![Final result](./images/05-picture.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://github.com/AntonielAureliano/product-preview-card-component-main)
+- Live Site URL: [Live site URL](https://product-preview-card-component-main-peach.vercel.app/)
 
 ### Built with
 
