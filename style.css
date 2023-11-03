@@ -37,6 +37,7 @@ body {
 /*image*/
 
 .product-image {
+  background-color: black;
   background-image: url("./images/image-product-desktop.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -120,5 +121,20 @@ body {
 @media (max-width: 375px) {
   .product {
     flex-direction: column;
+    margin: 2rem auto;
+    max-width: 360px;
+  }
+  .product-image {
+    background-image: url("./images/image-product-mobile.jpg");
+    background-size: cover;
+    border-radius: 0.625rem 0.625rem 0 0;
+    height: 300px;
+    max-width: 360px;
+  }
+  .product-description {
+    margin: 1.5rem;
+  }
+  .product-descripttion-title {
+    max-width: 20ch;
   }
 }
