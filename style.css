@@ -57,7 +57,7 @@ body {
 .product-description span {
   color: var(--neutral-dark-grayish-blue);
   font-size: 0.8125rem;
-  letter-spacing: 0.1875rem;
+  letter-spacing: 0.3125rem;
   text-transform: uppercase;
 }
 
@@ -99,6 +99,7 @@ body {
   color: var(--neutral-white);
   font-size: 0.8125rem;
   padding: 1rem 2rem;
+  position: relative;
   text-align: center;
   text-decoration: none;
 }
@@ -106,6 +107,11 @@ body {
   background-color: var(--neutral-dark-green);
 }
 
+.product-description-button::before {
+  content: url("./images/icon-cart.svg");
+  left: 3.75rem;
+  position: absolute;
+}
 /*footer*/
 .attribution {
   font-size: 11px;
@@ -136,5 +142,11 @@ body {
   }
   .product-descripttion-title {
     max-width: 20ch;
+  }
+  .product-description-paragraph {
+    max-width: 30ch;
+  }
+  .product-description-button::before {
+    left: 90px;
   }
 }
