@@ -21,6 +21,10 @@ a {
   padding: 0px;
 }
 
+img {
+  max-width: 300px;
+}
+
 body {
   background-color: var(--primary-cream);
   font-family: "Montserrat", sans-serif;
@@ -36,12 +40,7 @@ body {
 
 /*image*/
 
-.product-image {
-  background-color: black;
-  background-image: url("./images/image-product-desktop.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 1000px;
+.product-image img {
   border-radius: 0.625rem 0 0 0.625rem;
 }
 
@@ -130,11 +129,8 @@ body {
     margin: 2rem auto;
     max-width: 360px;
   }
-  .product-image {
-    background-image: url("./images/image-product-mobile.jpg");
-    background-size: cover;
+  .product-image img {
     border-radius: 0.625rem 0.625rem 0 0;
-    height: 300px;
     max-width: 360px;
   }
   .product-description {
